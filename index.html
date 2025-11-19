@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA APOD Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>NASA APOD Search</h1>
+    </header>
+
+    <main>
+
+        <section class="search-section">
+            <form id="searchForm">
+                <label for="dateInput">Select a date:</label>
+                <input type="date" id="dateInput" required>
+                <button type="submit">Get APOD</button>
+            </form>
+        </section>
+
+        <section id="apodSection" class="apod-section" aria-live="polite"></section>
+
+        <section class="favourites-section">
+            <h2>Favourites</h2>
+            <div id="favouritesContainer"></div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

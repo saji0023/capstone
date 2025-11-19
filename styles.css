@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0b0c10;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1f2833;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-section {
+    padding: 20px;
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+.apod-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.apod-section img {
+    max-width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.favourites-section {
+    padding: 20px;
+}
+
+.favourite-item {
+    background: #1f2833;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.favourite-item img {
+    width: 100%;
+    border-radius: 6px;
+}
